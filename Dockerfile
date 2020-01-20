@@ -10,7 +10,8 @@ RUN apk --no-cache add \
 
 # Application server
 ADD Gemfile Gemfile.lock ./
-RUN bundle install
+RUN bundle update --bundler \
+  && bundle install
 
 # Expose ports
 EXPOSE 25 1080
