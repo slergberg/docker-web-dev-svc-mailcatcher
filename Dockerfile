@@ -1,5 +1,5 @@
 # Base image
-FROM ruby:2.7.0-alpine
+FROM ruby:2.7.1-alpine
 
 # Base dependencies
 RUN apk --no-cache add \
