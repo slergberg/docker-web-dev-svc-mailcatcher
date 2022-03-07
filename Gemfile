@@ -2,4 +2,4 @@ source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-gem "mailcatcher", "0.7.1"
+gem "mailcatcher", "0.8.2"
